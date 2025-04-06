@@ -14,11 +14,11 @@ public class ClassTask {
         
         System.out.println("Enter Redious Number");
         
-        float rediousvalue = input.nextFloat(); 
+        float rediousValue = input.nextFloat(); 
         
         
-        if(rediousvalue>0){
-            double result= Math.PI*Math.pow(rediousvalue, 2);
+        if(rediousValue>0){
+            double result= Math.PI*Math.pow(rediousValue, 2);
             System.out.println(result);
         }
         else{
