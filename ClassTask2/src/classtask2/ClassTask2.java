@@ -15,8 +15,8 @@ public class ClassTask2 {
         if (input <= 0) {
 
             System.err.println("is wrong Number");
-            System.out.println("Enter right Number");
 
+            System.out.println("Enter right Number");
             float posValue = mas.nextFloat();
 
             if (posValue > 0) {
