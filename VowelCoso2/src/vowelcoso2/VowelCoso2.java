@@ -15,10 +15,10 @@ public class VowelCoso2 {
                 || letter == 'o' || letter == 'u') {
 
             System.out.println(letter + " is Vowel");
-        } else if (letter >= 'a' && letter <= 'z') {
+        } else if (letter == 'a' && letter == 'z') {
             System.out.println(letter + " is Consonent");
         } else {
-            System.err.println(letter + " is not right Letter");
+            System.err.println(letter + " is not a Letter");
         }
 
     }

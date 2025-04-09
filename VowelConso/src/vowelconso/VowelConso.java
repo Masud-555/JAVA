@@ -20,11 +20,11 @@ public class VowelConso {
           
          System.out.println(letter+" is Vowel");
         }
-        else if(letter >='a' && letter<='z' && letter>='A' && letter <='Z'){
+        else if(letter =='a' && letter=='z' && letter=='A' && letter =='Z'){
             System.out.println(letter+" is Consonent");
         }
                 else{
-                        System.err.println(letter+" is not right Letter");
+                        System.err.println(letter+" is not a Letter");
                         }
                 
     }
