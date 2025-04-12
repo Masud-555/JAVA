@@ -1,20 +1,37 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package learnmethodoverloading;
 
-/**
- *
- * @author Admin
- */
+import java.util.Arrays;
+
+
 public class LearnMethodOverloading {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        sum(10);
+
+
+            
+
+        
+    }
+    
+    public static int sum(){
+        
+        return 10+20;
+    }
+    public static int sum(int a){
+        
+        return 10+a;
+    }
+    public static int sum(int a, int b){
+        
+        return b+a;
+    }
+    public static void sum(int... a){
+        
+        System.out.println(Arrays.toString(a));
     }
     
 }
