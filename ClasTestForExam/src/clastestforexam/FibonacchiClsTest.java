@@ -15,6 +15,7 @@ public class FibonacchiClsTest {
         int num2 = 1;
       
         for (int indx = 1; indx <= limit; indx++) {
+            
             int num3= num1+ num2;
             System.out.print(num1+ ", ");
             
