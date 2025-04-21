@@ -13,17 +13,13 @@ public class FibonacchiClsTest {
 
         int num1 = 0;
         int num2 = 1;
-        int sum = 0;
-
-        System.out.println(num1);
-        System.out.println(num2);
-
-        for (int indx = 3; indx < limit; indx++) {
-            sum = num1 + num2;
-            System.out.println(sum);
-
-            num1 = num2;
-            num2 = sum;
+      
+        for (int indx = 1; indx <= limit; indx++) {
+            int num3= num1+ num2;
+            System.out.print(num1+ ", ");
+            
+            num1=num2;
+            num2=num3;
 
         }
 
