@@ -4,7 +4,7 @@ package clastestforexam;
 import java.util.Scanner;
 
 
-public class ClasTestForExam {
+public class Percentage5AddExamTest {
 
     
     public static void main(String[] args) {
