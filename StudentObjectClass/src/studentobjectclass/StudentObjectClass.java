@@ -13,6 +13,10 @@ public class StudentObjectClass {
         
         System.out.println(s.stu());
         
+//        s.setAddress("savar");
+//        s.setId(1235);
+//        
+//        System.out.println(s);
     }
     
 }
