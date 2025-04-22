@@ -25,7 +25,7 @@ public class PositiveNegativePlusMinusExam {
             
         }
         
-        System.out.println("The is sum number "+ sum);
+        System.out.println("Total sum number "+ sum);
     }
     
 }
