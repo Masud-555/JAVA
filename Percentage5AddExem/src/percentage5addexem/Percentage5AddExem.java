@@ -1,14 +1,14 @@
 
-package ercentage5addexam;
+package percentage5addexem;
 
 import java.util.Scanner;
 
 
-public class Ercentage5AddExam {
+public class Percentage5AddExem {
 
     
     public static void main(String[] args) {
-       
+        
          Scanner s = new Scanner(System.in);
         
         System.out.println("enter price ");
