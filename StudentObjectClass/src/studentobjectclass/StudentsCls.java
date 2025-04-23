@@ -79,6 +79,11 @@ public class StudentsCls {
     
     return mas;
     }
+
+    @Override
+    public String toString() {
+        return "StudentsCls{" + "id=" + id + ", name=" + name + ", email=" + email + ", password=" + password + ", address=" + address + ", contact=" + contact + '}';
+    }
     
     
 }

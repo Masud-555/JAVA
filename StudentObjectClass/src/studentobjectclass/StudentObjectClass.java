@@ -17,6 +17,18 @@ public class StudentObjectClass {
 //        s.setId(1235);
 //        
 //        System.out.println(s);
+
+            StudentsCls mc = new StudentsCls();
+            
+            mc.setId(123);
+            mc.setName("Ashik");
+            mc.setEmail("ashik@gmail.com");
+            mc.setPassword(55277);
+            mc.setAddress("savar");
+            mc.setContact(124587);
+            
+            System.out.println(mc);
+            
     }
     
 }
