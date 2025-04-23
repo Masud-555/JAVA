@@ -73,8 +73,11 @@ public class StudentsCls {
     
     public String sc(){
     
+        String mas ="id : "+id+"\n"+"Name : "+name+"\n"+"email : "+email+"\n"+
+                "Password : "+password+"\n"+"Address"+address+"\n"+
+                "Contact : "+contact;
     
-    
+    return mas;
     }
     
     
