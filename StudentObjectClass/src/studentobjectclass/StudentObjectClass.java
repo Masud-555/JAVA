@@ -27,7 +27,7 @@ public class StudentObjectClass {
             mc.setAddress("savar");
             mc.setContact(124587);
             
-            System.out.println(mc);
+            System.out.println(mc.toString());
             
     }
     
