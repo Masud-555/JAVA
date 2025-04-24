@@ -1,12 +1,11 @@
 
-package gym.fitness;
+package busdifferentclsobject;
 
 
-public class GymFitness {
+public class BusDifferentClsObject {
 
     
     public static void main(String[] args) {
-        
         
         
         
