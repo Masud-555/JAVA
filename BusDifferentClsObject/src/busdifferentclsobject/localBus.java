@@ -60,6 +60,13 @@ public class localBus {
     public void setBreck(int breck) {
         this.breck = breck;
     }
+    
+    public String lBus(){
+    
+     String bus = "Body="+body+"\n"+"Wheel="+wheel+"\n"+"Seat="+seat+"\n"+"fan="+fan+"\n"+"Breck="+breck;
+     
+     return bus;
+    }
 
     @Override
     public String toString() {
