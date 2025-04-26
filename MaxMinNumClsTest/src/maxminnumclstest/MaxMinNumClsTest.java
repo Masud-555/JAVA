@@ -23,21 +23,21 @@ public class MaxMinNumClsTest {
         System.out.println(Arrays.toString(numbers));
         System.out.println("--------------------------");
 
-//        int maxNumber = numbers[0];
-//        int minNumber = numbers[0];
-//
-//        for (int number : numbers) {
-//            if (number > maxNumber) {
-//                maxNumber = number;
-//
-//            }
-//            if (number < minNumber) {
-//                minNumber = number;
-//
-//            }
-//        }
-//        System.out.println("Max number is " + maxNumber);
-//        System.out.println("Min number is " + minNumber);
+        int maxNumber = numbers[0];
+        int minNumber = numbers[0];
+
+        for (int number : numbers) {
+            if (number > maxNumber) {
+                maxNumber = number;
+
+            }
+            if (number < minNumber) {
+                minNumber = number;
+
+            }
+        }
+        System.out.println("Max number is " + maxNumber);
+        System.out.println("Min number is " + minNumber);
 
     }
 

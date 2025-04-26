@@ -4,11 +4,11 @@ package busdifferentclsobject;
 
 public class localBus {
     
-    private boolean body;
-    private int wheel;
-    private int seat;
-    private int fan;
-    private int breck;
+    public boolean body;
+    public int wheel;
+    public int seat;
+    public  int fan;
+    public  int breck;
 
     public localBus() {
     }
@@ -61,17 +61,9 @@ public class localBus {
         this.breck = breck;
     }
     
-    public String lBus(){
-    
-     String bus = "Body="+body+"\n"+"Wheel="+wheel+"\n"+"Seat="+seat+"\n"+"fan="+fan+"\n"+"Breck="+breck;
-     
-     return bus;
-    }
+   
 
-    @Override
-    public String toString() {
-        return "LocalBus{" + "body=" + body + ", wheel=" + wheel + ", seat=" + seat + ", fan=" + fan + ", breck=" + breck + '}';
-    }
+   
 
     
 }
